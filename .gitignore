@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# MRMD 运行期临时文件
+_mrmd3_tmp*.csv
+
+# 脚本运行产物(示例/采样数据跑出的结果,避免与真实结果混淆;
+# 如需提交真实结果,用 git add -f 强制加入)
+main_results.csv
+main_results.npz
+main_fold_metrics.csv
